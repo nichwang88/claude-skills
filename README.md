@@ -13,6 +13,15 @@
 
 [查看详细文档 →](./surge-reference/README.md)
 
+### [MikroTik RouterOS](./mikrotik-routeros)
+为 AI Agent 提供 MikroTik RouterOS 官方文档引用、配置指导和连接方法（SSH/API）。
+
+- **功能**: 引用官方 RouterOS Manual、提供 CLI 语法规范、SSH/API 连接方法
+- **适用场景**: RouterOS 配置、脚本编写、网络设置、防火墙规则、路由协议、设备连接
+- **特点**: 官方文档优先、完整的连接方法、CLI 语法验证、版本要求说明
+
+[查看详细文档 →](./mikrotik-routeros/README.md)
+
 ## 🚀 快速开始
 
 ### 安装单个 Skill
@@ -50,6 +59,9 @@ cp -r claude-skills/*/ ~/.claude/skills/
 claude-skills/
 ├── README.md                    # 本文档
 ├── surge-reference/            # Surge 文档参考 skill
+│   ├── README.md               # Skill 详细说明
+│   └── SKILL.md                # Skill 定义文件
+├── mikrotik-routeros/          # MikroTik RouterOS skill
 │   ├── README.md               # Skill 详细说明
 │   └── SKILL.md                # Skill 定义文件
 └── [其他 skills...]
@@ -115,3 +127,4 @@ MIT License
 - [Claude Code 官方文档](https://github.com/anthropics/claude-code)
 - [Superpowers Skills Marketplace](https://github.com/ckreiling/superpowers-marketplace)
 - [Surge 官方文档](https://manual.nssurge.com/)
+- [MikroTik RouterOS 官方文档](https://help.mikrotik.com/docs/spaces/ROS/overview)
