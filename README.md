@@ -22,6 +22,15 @@
 
 [查看详细文档 →](./mikrotik-routeros/README.md)
 
+### [UniFi Network Management](./unifi-network-management)
+为 AI Agent 提供 Ubiquiti UniFi 网络设备管理的完整指导，包括 API 使用、SSH 命令和安全最佳实践。
+
+- **功能**: 版本感知的 API 使用、SSH 设备管理、安全凭据处理、备份工作流
+- **适用场景**: UniFi Controller API 操作、SSH 设备配置、故障排除、自动化网络管理
+- **特点**: API 端点版本适配、安全优先设计、完整的 SSH 指导、故障排除流程图
+
+[查看详细文档 →](./unifi-network-management/README.md)
+
 ## 🚀 快速开始
 
 ### 安装单个 Skill
@@ -62,6 +71,9 @@ claude-skills/
 │   ├── README.md               # Skill 详细说明
 │   └── SKILL.md                # Skill 定义文件
 ├── mikrotik-routeros/          # MikroTik RouterOS skill
+│   ├── README.md               # Skill 详细说明
+│   └── SKILL.md                # Skill 定义文件
+├── unifi-network-management/   # UniFi 网络管理 skill
 │   ├── README.md               # Skill 详细说明
 │   └── SKILL.md                # Skill 定义文件
 └── [其他 skills...]
@@ -128,3 +140,4 @@ MIT License
 - [Superpowers Skills Marketplace](https://github.com/ckreiling/superpowers-marketplace)
 - [Surge 官方文档](https://manual.nssurge.com/)
 - [MikroTik RouterOS 官方文档](https://help.mikrotik.com/docs/spaces/ROS/overview)
+- [UniFi 官方文档](https://help.ui.com/hc/en-us/categories/6583256751383-UniFi)
