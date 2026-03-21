@@ -39,3 +39,4 @@ yarn-error.log*
 # Temporary files
 tmp/
 temp/
+ui-ux-pro-max/scripts/__pycache__/
